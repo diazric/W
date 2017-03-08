@@ -6,13 +6,11 @@
  * Made By MaterializeCSS.com
  */
 
-*{
-  background-color: black;
-}
+
 
 .titulo {
   font-family: "butler";
-  color: white;
+
 }
 
 @font-face{
