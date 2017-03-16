@@ -1,3 +1,13 @@
+<!-- <?php 
+     
+     function sendEmail(){
+      if(!empty($_POST)){ 
+        mail('diazric@gmail.com', 'Reservacion The W Bar', 'email:' ."\t". $_POST['email'] ."\r\n", 
+        'Enviado por:' . "\t" . $_POST['name'] . "\r\n" . 'Mensaje:'. "\t". $_POST['message']);
+      }
+    }
+   ?> -->
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -25,7 +35,7 @@
 		<a href="#" class="brand-logo">
 			<img src="images/w-whiskyBar-logo.png" width="40px">
 		</a>
-		<ul class="right center hide-on-med-and-down light">
+		<ul class="right center hide-on-med-and-down light titulo">
 			<li><a href="#">Inicio</a></li>
 			<li><a href="#nosotros">Nosotros</a></li>
 			<li><a href="#menu">Menú</a></li>
@@ -70,7 +80,7 @@
 				<div class="col s12 m2 l2"></div>
 				<div  class="col s12 m8 l8">
 					<p class="white-text light center titulo"><span itemprop="name">
-					<br>EL PRIMER BAR DE WHISKY</span> EN SANTO DOMINGO JUNTO A LA PRESTIGIOSA MARCA DE WHISKY THE MACALLAN, HEMOS LOGRADO UN ESPACIO ELEGANTE Y ACOGEDOR ENFOCADO EN WHISKY.
+					<br>SOMOS EL PRIMER BAR DE WHISKY</span> EN SANTO DOMINGO JUNTO A LA PRESTIGIOSA MARCA DE WHISKY THE MACALLAN, HEMOS LOGRADO UN ESPACIO ELEGANTE Y ACOGEDOR ENFOCADO EN WHISKY.
 					<br><br>
 					CONTAMOS CON UNA CARTA DE MÁS DE 150 VARIEDADES DE WHISKY.
 					</p>
@@ -97,8 +107,16 @@
 	
 <!--Menu     -->
 	<!-- After Work -->
+	<div class="row">
+		<section class="container">
+			<h1 class="titulo">After Work</h1>
+		</section>	
+	</div>
+
 		<div class="black-text" id="menu">
+
 			<div class="container">
+
 				<div class="row">
 					
 					<div class="col s12 m6 l6 light">
@@ -143,14 +161,14 @@
 
 <div class="row">
 		<section class="container">
-			<h1 class="titulo">Cocktails<h1>
+			<h1 class="titulo">Cocktails</h1>
 		</section>	
 </div>
 
 		<div class="black-text">
 			<div class="container">
 				<div class="row">
-					<div class="col sq12 m6 l6">
+					<div class="col s12 m6 l6">
 						<h5 class="titulo">La Romerita</h5>
 						<span>Limonada de Chinola / Romero / Menta / <br> Ron / Lim&oacuten / Hielo Triturado</span>
 					</div>
@@ -200,28 +218,735 @@
 <!--Menu End -->
 
 <!--Galeria Bar -->
-<div class="black">
-	<div class="col s12 m4 l4">
-        <div class="card">
-          <div class="card-image waves-effect">
-            <img class="responsive-img" src="./images/pizza.jpg">
-            <div class="card-content amber lighten-5">
-              <p>Pizza | IL FINO</p>
+	<div class="black">
+		<div class="row">
+			<div class="col s4 m4 l4">
+	        <div class="card">
+	          <div class="card-image waves-effect">
+	            <img class="responsive-img" src="./images/m2.jpg">
+	            
+	          </div>
+	        </div>
+	      </div>
+
+	      <div class="col s4 m4 l4">
+	        <div class="card">
+	          <div class="card-image waves-effect">
+	            <img class="responsive-img" src="./images/m3.jpg">
+	           
+	          </div>
+	        </div>
+	      </div>
+
+	      <div class="col s4 m4 l4">
+	        <div class="card">
+	          <div class="card-image waves-effect">
+	            <img class="responsive-img" src="./images/m5.jpg">
+	            
+	          </div>
+	        </div>
+	      </div>
+
+	      <div class="col s4 m4 l4">
+	        <div class="card">
+	          <div class="card-image waves-effect">
+	            <img class="responsive-img" src="./images/m6.jpg">
+	            
+	          </div>
+	        </div>
+	      </div>
+	      <div class="col s4 m4 l4">
+	        <div class="card">
+	          <div class="card-image waves-effect">
+	            <img class="responsive-img" src="./images/m4.jpg">
+	            
+	          </div>
+	        </div>
+	      </div>
+
+	      <div class="col s4 m4 l4">
+	        <div class="card">
+	          <div class="card-image waves-effect">
+	            <img class="responsive-img" src="./images/m7.jpg">
+	            
+	          </div>
+	        </div>
+	      </div>
+
+		</div>
+
+
+		<!--Eventos    -->
+		<div class="row">
+
+			<div class="col s12 m12 l12">
+				<img class="responsive-img" src="images/actividades.jpg">
+			</div>	
+
+		</div>
+		<!--Eventos End -->
+<!-- Menu 2 -->
+
+		<div class="black-text white">
+		
+			<div class="container">
+				<section class="container left">
+					<h1 class="titulo">Macallan Whiskies</h1>
+					</section>	
+
+					<div class="row">
+						<div class="col s12 m6 l6">
+							<h5 class="titulo">Macallan 12</h5>
+						</div>
+						<div class="col s12 m6 l6">
+							<h5 class="titulo">Macallan Ambar</h5>
+						</div>
+						<div class="col s12 m6 l6">
+							<h5 class="titulo">Macallan Sienna</h5>
+						</div>
+						<div class="col s12 m6 l6">
+							<h5 class="titulo">Macallan Ruby</h5>
+						</div>
+						<div class="col s12 m6 l6">
+							<h5 class="titulo">Macallan Rare Cask</h5>
+						</div>
+						<div class="col s12 m6 l6">
+							<h5 class="titulo">Macallan Reflexion</h5>
+						</div>
+						<div class="col s12 m6 l6">
+							<h5 class="titulo">Macallan No.6</h5>
+						</div>
+						<div class="col s12 m6 l6">
+							<h5 class="titulo">Macallan M</h5>
+						</div>
+						<div class="row"></div>
+					</div>
+				</div>
+
+				<div class="container">
+					<section class="container left">
+						<h1 class="titulo">Scotland</h1>
+							<h4 class="titulo">Highland Single Malt</h4>
+						</section>	
+
+						<div class="row">
+							<div class="col s12 m6 l6">
+								<h5 class="titulo">Aberfeldy 12</h5>
+							</div>
+							<div class="col s12 m6 l6">
+								<h5 class="titulo">Dalmore 12</h5>
+							</div>
+							<div class="col s12 m6 l6">
+								<h5 class="titulo">Dawhinnie 15</h5>
+							</div>
+							<div class="col s12 m6 l6">
+								<h5 class="titulo">Glengoyne 15</h5>
+							</div>
+							<div class="col s12 m6 l6">
+								<h5 class="titulo">Glenmorangie 18</h5>
+							</div>
+							<div class="col s12 m6 l6">
+								<h5 class="titulo">Glenmorangie Nectar</h5>
+							</div>
+							<div class="col s12 m6 l6">
+								<h5 class="titulo">Glenmorangie Original 10</h5>
+							</div>
+							<div class="col s12 m6 l6">
+								<h5 class="titulo">Glenmorangie Quinta Rua</h5>
+							</div>
+							<div class="col s12 m6 l6">
+								<h5 class="titulo">Haig Club</h5>
+							</div>
+							<div class="col s12 m6 l6">
+								<h5 class="titulo">Loch Lomond Original</h5>
+							</div>
+							<div class="col s12 m6 l6">
+								<h5 class="titulo">Oban 14</h5>
+							</div>
+							<div class="col s12 m6 l6">
+								<h5 class="titulo">Oban Destillery Edition</h5>
+							</div>
+							<div class="col s12 m6 l6">
+								<h5 class="titulo">Oban Little Bay</h5>
+							</div>
+							<div class="row"></div>
+
+						</div>
+					</div>
+
+					<div class="container">
+					<section class="container left">
+						
+							<h4 class="titulo">Campbeltown single malt</h4>
+						</section>	
+
+						<div class="row">
+							<div class="col s12 m6 l6">
+								<h5 class="titulo">Glen Scotia 15</h5>
+							</div>
+							<div class="col s12 m6 l6">
+								<h5 class="titulo">Glen Scotia Double Cask</h5>
+							</div>
+							<div class="col s12 m6 l6">
+								<h5 class="titulo">Glen Scotia Victoriana</h5>
+							</div>
+							<div class="row"></div>
+
+						</div>
+					</div>
+
+					<div class="container">
+					<section class="container left">
+						
+							<h4 class="titulo">Speyside single malts</h4>
+						</section>	
+
+						<div class="row">
+							<div class="col s12 m6 l6">
+								<h5 class="titulo">Abelour 12</h5>
+							</div>
+							<div class="col s12 m6 l6">
+								<h5 class="titulo">Balvenie 12</h5>
+							</div>
+							<div class="col s12 m6 l6">
+								<h5 class="titulo">Blavenie 14</h5>
+							</div>
+							<div class="col s12 m6 l6">
+								<h5 class="titulo">Cardhu 12</h5>
+							</div>
+							<div class="col s12 m6 l6">
+								<h5 class="titulo">Glenfarclas 12</h5>
+							</div>
+							<div class="col s12 m6 l6">
+								<h5 class="titulo">Glenfidich 12</h5>
+							</div>
+							<div class="col s12 m6 l6">
+								<h5 class="titulo">Glenfidich 15</h5>
+							</div>
+							<div class="col s12 m6 l6">
+								<h5 class="titulo">Glenfidich 18</h5>
+							</div>
+							<div class="col s12 m6 l6">
+								<h5 class="titulo">Glenlivet 12</h5>
+							</div>
+							<div class="col s12 m6 l6">
+								<h5 class="titulo">Glenlivet 15</h5>
+							</div>
+							<div class="col s12 m6 l6">
+								<h5 class="titulo">Glenlivet 18</h5>
+							</div>
+							<div class="col s12 m6 l6">
+								<h5 class="titulo">Glenlivet 21</h5>
+							</div>
+							<div class="col s12 m6 l6">
+								<h5 class="titulo">Glenrothes 95</h5>
+							</div>
+							<div class="col s12 m6 l6">
+								<h5 class="titulo">Glenrothes 98</h5>
+							</div><div class="col s12 m6 l6">
+								<h5 class="titulo">Glenrothes Rare Selection</h5>
+							</div>
+							<div class="row"></div>
+
+						</div>
+					</div>
+
+					<div class="container">
+					<section class="container left">
+						
+							<h4 class="titulo">Islay single malts</h4>
+						</section>	
+
+						<div class="row">
+							<div class="col s12 m6 l6">
+								<h5 class="titulo">Ardbeg</h5>
+							</div>
+							<div class="col s12 m6 l6">
+								<h5 class="titulo">Bowmore 12</h5>
+							</div>
+							<div class="col s12 m6 l6">
+								<h5 class="titulo">Bowmore Black Rock</h5>
+							</div>
+							<div class="col s12 m6 l6">
+								<h5 class="titulo">Bunnahabhain 12</h5>
+							</div>
+							<div class="col s12 m6 l6">
+								<h5 class="titulo">Caol Ila 12</h5>
+							</div>
+							<div class="col s12 m6 l6">
+								<h5 class="titulo">Lagavulin 16</h5>
+							</div>
+							<div class="col s12 m6 l6">
+								<h5 class="titulo">Laphroaig 10</h5>
+							</div>
+							<div class="col s12 m6 l6">
+								<h5 class="titulo">Laphroaig QX</h5>
+							</div>
+
+							<div class="row"></div>
+
+						</div>
+					</div>
+
+					<div class="container">
+						<section class="container left">
+
+							<h4 class="titulo">Island single malts</h4>
+						</section>	
+
+						<div class="row">
+							<div class="col s12 m6 l6">
+								<h5 class="titulo">Talisker 10</h5>
+							</div>
+							<div class="col s12 m6 l6">
+								<h5 class="titulo">Isle of jura</h5>
+							</div>
+							<div class="col s12 m6 l6">
+								<h5 class="titulo">Highland Park 12</h5>
+							</div>
+							<div class="col s12 m6 l6">
+								<h5 class="titulo">Highland Park 15</h5>
+							</div>
+							<div class="col s12 m6 l6">
+								<h5 class="titulo">Highland Park 18</h5>
+							</div>
+							<div class="col s12 m6 l6">
+								<h5 class="titulo">Highland Park Dark Origen</h5>
+							</div>
+							<div class="col s12 m6 l6">
+								<h5 class="titulo">Highland Park Svein</h5>
+							</div>
+							<div class="col s12 m6 l6">
+								<h5 class="titulo">Highland Park Einar</h5>
+							</div>
+							<div class="col s12 m6 l6">
+								<h5 class="titulo">Highland Park Harald</h5>
+							</div>
+							<div class="col s12 m6 l6">
+								<h5 class="titulo">Highland Park 25</h5>
+							</div>
+							
+							<div class="row"></div>
+						</div>
+
+					</div>
+
+					<div class="container">
+						<section class="container left">
+
+							<h4 class="titulo">Lowland single malts</h4>
+						</section>	
+
+						<div class="row">
+							<div class="col s12 m6 l6">
+								<h5 class="titulo">Auchentoshan single</h5>
+							</div>
+							<div class="col s12 m6 l6">
+								<h5 class="titulo">American oak</h5>
+							</div>
+							
+							<div class="row"></div>
+						</div>
+
+					</div>
+
+					<div class="container">
+						<section class="container left">
+							<h1 class="titulo">Japan</h1>
+							
+						</section>	
+
+						<div class="row">
+							<div class="col s12 m6 l6">
+								<h5 class="titulo">Nikki coffey grain</h5>
+							</div>
+							<div class="col s12 m6 l6">
+								<h5 class="titulo">Hibiki harmony</h5>
+							</div>
+							<div class="col s12 m6 l6">
+								<h5 class="titulo">Suntory hakushu 12</h5>
+							</div>
+							<div class="col s12 m6 l6">
+								<h5 class="titulo">Nikka taketsura 12</h5>
+							</div>
+							<div class="col s12 m6 l6">
+								<h5 class="titulo">Nikka coffey grain</h5>
+							</div>
+							<div class="col s12 m6 l6">
+								<h5 class="titulo">Akashi</h5>
+							</div>
+							<div class="col s12 m6 l6">
+								<h5 class="titulo">Yamazaky 12+</h5>
+							</div>
+							
+							<div class="row"></div>
+						</div>
+
+					</div>
+
+					<div class="container">
+						<section class="container left">
+							<h1 class="titulo">United States</h1>
+							<h4 class="titulo">Kentucky Bourbon</h4>
+						</section>	
+
+						<div class="row">
+							<div class="col s12 m6 l6">
+								<h5 class="titulo">Angel envy</h5>
+							</div>
+							<div class="col s12 m6 l6">
+								<h5 class="titulo">Elijah craigh 12</h5>
+							</div>
+							<div class="col s12 m6 l6">
+								<h5 class="titulo">Jim beam bourbon 12</h5>
+							</div>
+							<div class="col s12 m6 l6">
+								<h5 class="titulo">Jr erwing private reserve</h5>
+							</div>
+							<div class="col s12 m6 l6">
+								<h5 class="titulo">Knob creek</h5>
+							</div>
+							<div class="col s12 m6 l6">
+								<h5 class="titulo">Makers mark</h5>
+							</div>
+							<div class="col s12 m6 l6">
+								<h5 class="titulo">The bulliet</h5>
+							</div>
+							<div class="col s12 m6 l6">
+								<h5 class="titulo">Wild turkey</h5>
+							</div>
+							<div class="col s12 m6 l6">
+								<h5 class="titulo">Evan williams cinnamon</h5>
+							</div>
+							<div class="col s12 m6 l6">
+								<h5 class="titulo">Evan williams honey reserve</h5>
+							</div>
+							<div class="col s12 m6 l6">
+								<h5 class="titulo">Woodford reserve</h5>
+							</div>
+							<div class="col s12 m6 l6">
+								<h5 class="titulo">Moonshine apple pie</h5>
+							</div>
+							<div class="col s12 m6 l6">
+								<h5 class="titulo">Four roses</h5>
+							</div>
+
+							<div class="row"></div>
+						</div>
+
+					</div>
+
+					<div class="container">
+						<section class="container left">
+							<h4 class="titulo">Tennessee Whiskey</h4>
+							
+						</section>	
+
+						<div class="row">
+							<div class="col s12 m6 l6">
+								<h5 class="titulo">Gentleman jack 12</h5>
+							</div>
+							<div class="col s12 m6 l6">
+								<h5 class="titulo">Jack daniel's fire whiskey</h5>
+							</div>
+							<div class="col s12 m6 l6">
+								<h5 class="titulo">Jack daniel's black 12</h5>
+							</div>
+							<div class="col s12 m6 l6">
+								<h5 class="titulo">Jack daniel's single barrel</h5>
+							</div>
+							<div class="col s12 m6 l6">
+								<h5 class="titulo">Jack daniel's tennessee honey</h5>
+							</div>
+							<div class="col s12 m6 l6">
+								<h5 class="titulo">Akashi</h5>
+							</div>
+							<div class="col s12 m6 l6">
+								<h5 class="titulo">Yamazaky 12+</h5>
+							</div>
+							
+							<div class="row"></div>
+						</div>
+
+					</div>
+
+					<div class="container">
+						<section class="container left">
+							<h4 class="titulo">Rye Whiskey</h4>
+							
+						</section>	
+
+						<div class="row">
+							<div class="col s12 m6 l6">
+								<h5 class="titulo">Bulliet 95 rye</h5>
+							</div>
+							
+							<div class="row"></div>
+						</div>
+
+					</div>
+
+					<div class="container">
+						<section class="container left">
+							<h1 class="titulo">Canada</h1>
+							
+						</section>	
+
+						<div class="row">
+							<div class="col s12 m6 l6">
+								<h5 class="titulo">Canadian Club</h5>
+							</div>
+							<div class="col s12 m6 l6">
+								<h5 class="titulo">Canadian Club 1858</h5>
+							</div>
+							<div class="col s12 m6 l6">
+								<h5 class="titulo">Fireball</h5>
+							</div>
+							<div class="col s12 m6 l6">
+								<h5 class="titulo">Crwn royal</h5>
+							</div>
+							
+							<div class="row"></div>
+						</div>
+
+					</div>
+
+					<div class="container">
+						<section class="container left">
+							<h1 class="titulo">Ireland</h1>
+							
+						</section>	
+
+						<div class="row">
+							<div class="col s12 m6 l6">
+								<h5 class="titulo">Bushmill 10</h5>
+							</div>
+							<div class="col s12 m6 l6">
+								<h5 class="titulo">Jameson caskmates</h5>
+							</div>
+							<div class="col s12 m6 l6">
+								<h5 class="titulo">Tullamore dew</h5>
+							</div>
+							
+							<div class="row"></div>
+						</div>
+
+					</div>
+
+					<div class="container">
+						<section class="container left">
+							<h1 class="titulo">Sweden</h1>
+							
+						</section>	
+
+						<div class="row">
+							<div class="col s12 m6 l6">
+								<h5 class="titulo">Mackmyra svendek ek</h5>
+							</div>
+							<div class="col s12 m6 l6">
+								<h5 class="titulo">Mackmyra vintertradgard</h5>
+							</div>
+							<div class="col s12 m6 l6">
+								<h5 class="titulo">Mackmyra delagare</h5>
+							</div>
+							
+							<div class="row"></div>
+						</div>
+
+					</div>
+
+					<div class="container">
+						<section class="container left">
+							<h1 class="titulo">India & Taiwan</h1>
+							
+						</section>	
+
+						<div class="row">
+							<div class="col s12 m6 l6">
+								<h5 class="titulo">Amrut cask strength</h5>
+							</div>
+							<div class="col s12 m6 l6">
+								<h5 class="titulo">Kavalan single malt</h5>
+							</div>
+							
+							<div class="row"></div>
+						</div>
+
+					</div>
+
+					<div class="container">
+						<section class="container left">
+							<h1 class="titulo">Blended scotch whisky</h1>
+							
+						</section>	
+
+						<div class="row">
+							<div class="col s12 m6 l6">
+								<h5 class="titulo">Ballantine's 8</h5>
+							</div>
+							<div class="col s12 m6 l6">
+								<h5 class="titulo">Ballantine's 12</h5>
+							</div>
+							<div class="col s12 m6 l6">
+								<h5 class="titulo">Buchanan's 12</h5>
+							</div>
+							<div class="col s12 m6 l6">
+								<h5 class="titulo">Buchanan's 18</h5>
+							</div>
+							<div class="col s12 m6 l6">
+								<h5 class="titulo">Buchanan's red seal</h5>
+							</div>
+							<div class="col s12 m6 l6">
+								<h5 class="titulo">Chivas regal 12</h5>
+							</div>
+							<div class="col s12 m6 l6">
+								<h5 class="titulo">Chivas regal extra</h5>
+							</div>
+							<div class="col s12 m6 l6">
+								<h5 class="titulo">Chivas regal 18</h5>
+							</div>
+							<div class="col s12 m6 l6">
+								<h5 class="titulo">Chivas regal 21 /r. Salute</h5>
+							</div>
+							<div class="col s12 m6 l6">
+								<h5 class="titulo">Chivas regal 25</h5>
+							</div>
+							<div class="col s12 m6 l6">
+								<h5 class="titulo">Cutty sark 12</h5>
+							</div>
+							<div class="col s12 m6 l6">
+								<h5 class="titulo">Dewar's 12</h5>
+							</div>
+							<div class="col s12 m6 l6">
+								<h5 class="titulo">Dewar's white label</h5>
+							</div>
+							<div class="col s12 m6 l6">
+								<h5 class="titulo">Dewar's 18</h5>
+							</div>
+							<div class="col s12 m6 l6">
+								<h5 class="titulo">Dewar's signature</h5>
+							</div>
+							<div class="col s12 m6 l6">
+								<h5 class="titulo">Gold label reserve</h5>
+							</div>
+							<div class="col s12 m6 l6">
+								<h5 class="titulo">J & B 8</h5>
+							</div>
+							<div class="col s12 m6 l6">
+								<h5 class="titulo">Johnnie w. blue label</h5>
+							</div>
+							<div class="col s12 m6 l6">
+								<h5 class="titulo">Johnnie w. double black</h5>
+							</div>
+							<div class="col s12 m6 l6">
+								<h5 class="titulo">Johnnie w. black</h5>
+							</div>
+							<div class="col s12 m6 l6">
+								<h5 class="titulo">Johnnie w. platinum</h5>
+							</div>
+							<div class="col s12 m6 l6">
+								<h5 class="titulo">Label 5 (12 years)</h5>
+							</div>
+							<div class="col s12 m6 l6">
+								<h5 class="titulo">Label 5 gold</h5>
+							</div>
+							<div class="col s12 m6 l6">
+								<h5 class="titulo">Label 5 (18 years)</h5>
+							</div>
+							<div class="col s12 m6 l6">
+								<h5 class="titulo">Lonch lomond reserve</h5>
+							</div>
+							<div class="col s12 m6 l6">
+								<h5 class="titulo">Old parr 12</h5>
+							</div>
+							<div class="col s12 m6 l6">
+								<h5 class="titulo">Old parr silver</h5>
+							</div>
+							<div class="col s12 m6 l6">
+								<h5 class="titulo">Old parr superior</h5>
+							</div>
+							<div class="col s12 m6 l6">
+								<h5 class="titulo">Pinch 15</h5>
+							</div>
+							<div class="col s12 m6 l6">
+								<h5 class="titulo">Somthing special</h5>
+							</div>
+
+							<div class="row"></div>
+						</div>
+
+					</div>
+
+		</div>
+		<!-- Menu 2 End -->
+<!--Contacto     -->
+<!-- <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post"> -->
+<form>
+    <div class="black white-text section">
+      <div class="container">
+        <h2 class="titulo">Reservaci&oacuten</h2>
+        <div class="col s12 m12 l12">
+          
+          <div class="row">
+            <div class="input-field col s6">
+              <input id="last_name" type="text" class="validate" name="name">
+              <label for="last_name" class="titulo">Nombre y apellido</label>
             </div>
+            <div class="input-field col s6">
+              <input id="email" type="email" class="validate" name="email">
+              <label for="email" class="titulo">Email</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s12">
+              <textarea id="textarea1" class="materialize-textarea" name="message"></textarea>
+              <label for="textarea1" class="titulo">Mensaje</label>
+            </div>
+            <div class="input-field col s6">
+              <button class="btn white black-text waves-effect waves-light">
+                <!-- <input type="submit" value="Enviar" onclick="<?php sendEmail();?>"> -->
+                <input type="submit">
+              </button>
+            </div>
+            
           </div>
         </div>
       </div>
-</div>
+    </div>
+  </form>
+
+<!--Contacto End -->
+
+
+	</div>
 
 <!--Galeria End -->
 
-<!--Eventos    -->
 
-<!--Eventos End -->
-
-<!--Contacto     -->
-
-<!--Contacto End -->
+<!-- Footer -->
+<footer id="reservas" class="page-footer black">
+      <div class="container" id="contacto">
+        <div class="row">
+          <div class="col l6 s12"> 
+            <h5 class="white-text light titulo" itemscope itemtype ="http://schema.org/Organization">CONTACTOS</h5>
+            <p class="grey-text text-lighten-4 light" itemprop="address">Lope de Vega esq. Max Henriquez Ureña Ens. Piantini.<br>Lunes-Viernes de 5:00 P.M. a 2:30 A.M. <br>Sábados-Domingos de 12:00 P.M. a 2:30 A.M.<br> <span itemprop="telephone">T. 809 475 1007</span></p>
+          </div>
+          <div class="col l4 offset-l2 s12">
+            <h5 class="white-text light titulo">REDES SOCIALES</h5>
+            <ul>
+              <li><a class="grey-text text-lighten-3 light" href="https://www.facebook.com/thewbar/?rf=566773470160604" target="_blank">Facebook</a></li>
+              <li><a class="grey-text text-lighten-3 light" href="https://www.instagram.com/thewbar/" target="_blank">Instagram</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright black">
+        <div class="container center light">
+          <span style="font-size: .8em;">© 2017 BAKERSTREET - W WHISKY BAR | Design by <a href="https://www.ricardodiazm.net">Ricardo Diaz</a></span>
+        </div>
+      </div>
+    </footer>
+<!-- Footer End -->
 
 <!--Import jQuery before materialize.js-->
   <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
