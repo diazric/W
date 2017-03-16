@@ -9,13 +9,22 @@
   font-family: "butler";
 
 }
+.titulo1 {
+  font-family: "concurse";
+
+}
+
 
 @font-face{
   font-family: 'butler';
   src: url('../fonts/Butler_Light.otf');
   font-weight: normal;
 }
-
+@font-face{
+  font-family: 'concurse';
+  src: url('../fonts/Concourse C3 Regular.ttf');
+  font-weight: normal;
+}
 
  a {
   text-decoration-color: none;
