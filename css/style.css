@@ -5,13 +5,16 @@
  *
  * Made By MaterializeCSS.com
  */
-
+.s-svg{
+  width: 25px;
+}
  .soc-pad{
-  padding-bottom: 40px;
+  margin-bottom: 0px;
  }
 
  .pad-col{
  padding: 0 !important;
+ line-height: 0;
 
  }
 .titulo {
