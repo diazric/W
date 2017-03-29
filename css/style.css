@@ -5,6 +5,10 @@
  *
  * Made By MaterializeCSS.com
  */
+
+ .nosFont {
+  font-size: 1.3em;
+ }
 .s-svg{
   width: 25px;
 }
