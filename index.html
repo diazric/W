@@ -30,12 +30,12 @@
 </head>
 <body>
 <!--Nav Bar     -->
-<nav class="black" role="navigation">
+<nav class="black " role="navigation">
 	<div class="nav-wrapper container">
 		<a href="#" class="brand-logo">
 			<img src="images/w-whiskyBar-logo.png" width="40px">
 		</a>
-		<ul class="right center hide-on-med-and-down light titulo11">
+		<ul class="right center hide-on-med-and-down light titulo11 ">
 			<li><a href="#">Inicio</a></li>
 			<li><a href="#nosotros">Nosotros</a></li>
 			<li><a href="#menu">Menú</a></li>
@@ -73,12 +73,12 @@
 <!--Fondo End -->
 
 <!--About Us     -->
-<div class="black" itemscope itemtype ="https://schema.org/LocalBusiness">
+<div class="black scrollSpy" itemscope itemtype ="https://schema.org/LocalBusiness">
 	<div class="container">
 		<div class="section">
 			<div class="row">
 				<div class="col s12 m2 l2"></div>
-				<div  class="col s12 m8 l8" id="nosotros">
+				<div  class="col s12 m8 l8 scrollspy" id="nosotros">
 					<p class="white-text light center titulo111"><span itemprop="name">
 					<br>SOMOS EL PRIMER BAR DE WHISKY</span> EN SANTO DOMINGO JUNTO A LA PRESTIGIOSA MARCA DE WHISKY THE MACALLAN, HEMOS LOGRADO UN ESPACIO ELEGANTE Y ACOGEDOR ENFOCADO EN WHISKY.
 					<br><br>
@@ -113,7 +113,7 @@
 		</section>	
 	</div>
 
-		<div class="black-text" id="menu">
+		<div class="black-text scrollspy" id="menu">
 
 			<div class="container">
 
@@ -219,7 +219,7 @@
 
 <!--Galeria Bar -->
 	
-		<div class="row black soc-pad" id="galeria">
+		<div class="row black soc-pad scrollspy" id="galeria">
 
 			<div class="col s6 m4 l4 pad-col">
 				
@@ -928,8 +928,8 @@
 
 
 <!-- Footer -->
-<footer id="reservas" class="page-footer black">
-      <div class="container" id="contacto">
+<footer id="reservas" class="page-footer black scrollspy">
+      <div class="container scrollspy" id="contacto">
         <div class="row">
           <div class="col l6 s12"> 
             <h5 class="white-text light titulo1" itemscope itemtype ="http://schema.org/Organization">CONTACTOS</h5>
@@ -965,10 +965,11 @@
   <script type="text/javascript">
 
     $( document ).ready(function(){
+      $('.scrollspy').scrollSpy();
       $('.parallax').parallax();
       $('.carousel.carousel-slider').carousel({full_width: true});
       $(".button-collapse").sideNav({closeOnClick: true});
-      $('.scrollspy').scrollSpy();
+      
 
 
     });
