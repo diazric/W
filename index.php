@@ -1,12 +1,16 @@
-<!-- <?php 
+<?php 
      
      function sendEmail(){
       if(!empty($_POST)){ 
-        mail('diazric@gmail.com', 'Reservacion The W Bar', 'email:' ."\t". $_POST['email'] ."\r\n", 
-        'Enviado por:' . "\t" . $_POST['name'] . "\r\n" . 'Mensaje:'. "\t". $_POST['message']);
+      	$headers = 'From: reservas@foodhallrd.com';
+        mail('diazric@gmail.com', 
+        	'Reservacion The W Bar', 
+        	'Enviado por:' . "\t" . $_POST['name'] . "\r\n" . 'Mensaje:'. "\t". $_POST['message'] .
+        	"\n\rEmail: \t" . $_POST['email'],
+        	$headers);
       }
     }
-   ?> -->
+   ?> 
 
 <!DOCTYPE html>
 <html>
@@ -882,8 +886,7 @@
 		</div>
 		<!-- Menu 2 End -->
 <!--Contacto     -->
-<!-- <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post"> -->
-<form>
+<form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post">
     <div class="black white-text section">
       <div class="container">
         <h2 class="titulo1">Reservaci&oacuten</h2>
